@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Redirect to random survey link</title>
+    <meta name="description" content="A survey redirect">
+    <meta name="keywords" content="future arctic lives">
+    
+    <script>
+      var sites = [
+        'https://www.nrk.no',
+        'https://www.vg.no',
+        'https://www.aftenposten.no',
+        'https://www.f-b.no'
+      ];
+      
+      window.location.replace(sites[Math.floor(Math.random()*sites.length)])
+    </script>
+
+  </head>
+
+  <body>
+    The website redirects to a random survey link
+  </body>
+</html>
